@@ -22,6 +22,7 @@ return [
     'allowed_origins' => [
         "http://localhost:3000", //Frontend Web en Desarrollo 
         "http://192.168.0.89:8081", //Frontend Mobile en Desarrollo
+        "http://192.168.1.40:8081", //Frontend Mobile en Desarrollo
     ],
 
     'allowed_origins_patterns' => [],

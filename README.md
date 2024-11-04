@@ -15,7 +15,7 @@ Este es un proyecto backend para la empresa Sueños en Telas (SET) en motivo de 
 - Modificar el archivo `.env` con los datos correctos de la base de datos donde se desea conectar (En el caso actual, una base de datos MySql administrada desde phpMyAdmin gracias a XAMPP)
 - Ejecutar desde la terminal `php artisan migrate`. Este comando creará todos los modelos, establecidos previamente dentro de la carpeta `database/migration`
 - Ejecutar desde la terminal `php artisan db:seed`. Este comando creará datos por defecto, establecidos previamente dentro del archivo `seeders/DatabaseSeeder` 
-- Ejecutar desde la terminal `php artisan serve` para establecer conexion y el funcionamiento completo del backend.
+- Ejecutar desde la terminal `php artisan serve --host=0.0.0.0 --port=8000` para establecer conexion y el funcionamiento completo del backend. Host y Puerto para un mejor manejo de info.
 
 Opcional: Se pueden utilizar las herramientas de artisan para establecer configuraciones adicionales. Por ejemplo, nuevos modelos, controladores o seeders antes de migrar la base de datos.
 

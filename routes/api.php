@@ -23,6 +23,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 * CRUD de la clase Producto
 */
 Route::controller(ProductoController::class)->group(function() {
+    Route::get('/prod', 'inicio');
     Route::get('/productos', 'index');
     Route::post('/producto', 'store');
     Route::get('/producto/{id}', 'show');

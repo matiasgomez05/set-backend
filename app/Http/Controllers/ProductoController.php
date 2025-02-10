@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 
 class ProductoController extends Controller
 {
-    
+    public function inicio(){
+        return "Lista";
+    }   
     public function index()
     {
         $productos = Producto::all();
